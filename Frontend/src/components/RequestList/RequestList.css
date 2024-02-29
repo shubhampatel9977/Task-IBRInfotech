@@ -1,0 +1,44 @@
+.requestlist-container {
+    margin: 10px 0px;
+}
+
+.requestlist-main {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(220, 228, 225);
+    border-radius: 20px;
+    margin: 0px 100px;
+    padding: 10px;
+}
+
+.requestlist-image-block {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.requestlist-image-block img {
+    border-radius: 50px;
+}
+
+.requestlist-action-btn {
+    display: flex;
+    align-items: center;
+}
+
+.requestlist-action-btn button {
+    background-color: seagreen;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.requestlist-accept-btn {
+    margin-right: 10px;
+}
+
+.requestlist-decline-btn{
+    margin-left: 10px;
+}

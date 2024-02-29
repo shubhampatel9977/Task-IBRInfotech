@@ -1,0 +1,36 @@
+.friendlist-container {
+    margin: 10px 0px;
+}
+
+.friendlist-main {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(220, 228, 225);
+    border-radius: 20px;
+    margin: 0px 100px;
+    padding: 10px;
+}
+
+.friendlist-image-block {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.friendlist-image-block img {
+    border-radius: 50px;
+}
+
+.friendlist-action-btn {
+    display: flex;
+    align-items: center;
+}
+
+.friendlist-action-btn button {
+    background-color: seagreen;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}

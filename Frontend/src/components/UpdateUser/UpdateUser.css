@@ -1,0 +1,116 @@
+.up-user-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 999;
+}
+
+.up-user-container {
+  margin-top: 20px 0px;
+  background-color: white;
+  height: fit-content;
+  width: 600px;
+}
+
+.up-user-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.up-user-heading p {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.up-user-input-fields {
+  margin: 0px 25px;
+}
+
+.up-user-img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.up-user-img-block {
+  border: 5px solid seagreen;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.up-user-img-block img{
+  border-radius: 50px;
+}
+
+.up-user-img-container input {
+  display: none;
+}
+
+.up-user-input-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.up-user-input-field {
+  display: block;
+  margin: 10px 0px;
+}
+
+.up-user-input-error {
+  color: red;
+  font-size:smaller;
+}
+
+.up-user-input-field label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.up-user-input-field input {
+  display: block;
+  margin-left: 5px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.up-user-input-field textarea {
+  display: block;
+  margin-left: 5px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.up-user-input-field input:focus {
+  outline: none;
+}
+
+.up-user-input-field textarea:focus {
+  outline: none;
+}
+
+.up-user-action-container {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.up-user-submitBtn {
+  background-color: seagreen;
+  color: white;
+  font-size: smaller;
+  padding: 5px 15px;
+}
+
+.up-user-closeBtn {
+  background-color: seagreen;
+  color: white;
+  font-size: smaller;
+  padding: 5px 15px;
+}

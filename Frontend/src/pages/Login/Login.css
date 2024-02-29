@@ -1,0 +1,79 @@
+.login-container-body {
+    background-color: azure;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: white;
+    height: fit-content;
+    width: 400px;
+}
+
+.login-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.login-heading p {
+    font-size: x-large;
+    font-weight: 600;
+}
+.login-input-fields {
+    margin: 0px 25px;
+}
+
+.login-input-field {
+    display: block;
+    margin: 10px 0px;
+}
+
+.login-input-error {
+    color: red;
+    font-size:smaller;
+}
+
+.login-input-field label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.login-input-field input {
+  display: block;
+  margin-left: 5px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.login-input-field textarea {
+    display: block;
+    margin-left: 5px;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+
+.login-input-field input:focus {
+    outline: none;
+}
+
+.login-input-field textarea:focus {
+    outline: none;
+}
+
+.login-action-container {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-submitBtn {
+    background-color: seagreen;
+    color: white;
+    font-size: smaller;
+    padding: 5px 15px;
+}

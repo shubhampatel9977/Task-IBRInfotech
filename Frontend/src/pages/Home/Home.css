@@ -1,0 +1,71 @@
+.home-Container {
+
+}
+
+.profile-container {
+    display: flex;
+}
+
+.image-block {
+    /* margin: 50px; */
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 150px;
+    width: 200px;
+}
+
+.image-block img {
+    height: -webkit-fill-available;
+    border-radius: 40px;
+}
+
+.info-block {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.detail-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-bio-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.profile-action-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-action-block button {
+    background-color: seagreen;
+    color: #fff;
+    padding: 5px 70px;
+    margin-bottom: 20px
+}
+
+.listing-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-btn {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: cadetblue;
+    width: 100%;
+    margin: 20px 2px;
+}
+
+.list-btn-cadetblue {
+    background-color: cadetblue;
+}
+
+.list-btn-seagreen {
+    background-color: seagreen;
+}
